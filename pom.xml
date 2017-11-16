@@ -85,7 +85,11 @@
         </dependencies>
     </dependencyManagement>
 
-    <dependencies>
+    <dependencies>    
+		<dependency>
+			<groupId>org.tmatesoft.svnkit</groupId>
+			<artifactId>svnkit</artifactId>
+		</dependency>
         <dependency>
             <groupId>io.github.jhipster</groupId>
             <artifactId>jhipster</artifactId>
